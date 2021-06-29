@@ -44,7 +44,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">Эффективные решения</br>для вашего бизнеса</h1>
-                <button data-modal-open type="button" class="main__button">Заказать услугу</button>
+                <button data-modal-open type="button" class="standart__button">Заказать услугу</button>
             </div>
         </section>
         <section class="our-tasks">
@@ -364,7 +364,7 @@
                 <div class="footer-form__group">
                     <form class="form-block">
                         <input class="form-block__input" type="male" name="male" id="male" placeholder="E-mail">
-                        <button class="main__button form-block__button" type="submit">
+                        <button class="standart__button form-block__button" type="submit">
                             Подписаться
                         <svg class="form-block__icon">
                             <use href="./images/sprite.svg#icon-send"></use>
@@ -377,49 +377,49 @@
     </footer>
 
     <div class="modal is-hidden" id="modal" data-modal>
-        <div class="modal-content" id="modal-content">
+        <div class="modal__content" id="modal-content">
             <button data-modal-close type="button" class="button-close">
                 <svg class="close">
                     <use href="./images/sprite.svg#icon-close">
                 </svg>
             </button>
             <form class="form">
-                <p>Оставьте свои данные, мы вам перезвоним</p>
-                <div class="form-field">
-                    <label class="form-label" for="name">Имя</label>
-                    <div class="form-input-group">
-                        <input class="form-input" type="text" name="name" id="name" required>
-                        <svg class="form-input-icon">
+                <p class="form__text">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form__field">
+                    <label class="form__label" for="name">Имя</label>
+                    <div class="form__input">
+                        <input class="input" type="text" name="name" id="name" required>
+                        <svg class="input__icon">
                             <use href="./images/sprite.svg#icon-name"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label class="form-label" for="tel">Телефон</label>
-                    <div class="form-input-group">
-                        <input class="form-input" type="tel" name="tel" id="tel" required>
-                        <svg class="form-input-icon">
+                <div class="form__field">
+                    <label class="form__label" for="tel">Телефон</label>
+                    <div class="form__input">
+                        <input class="input" type="tel" name="tel" id="tel" required>
+                        <svg class="input__icon">
                             <use href="./images/sprite.svg#icon-tel"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label class="form-label" for="male">Почта</label>
-                    <div class="form-input-group">
-                        <input class="form-input" type="male" name="male" id="male" required>
-                        <svg class="form-input-icon">
+                <div class="form__field">
+                    <label class="form__label" for="male">Почта</label>
+                    <div class="form__input">
+                        <input class="input" type="male" name="male" id="male" required>
+                        <svg class="input__icon">
                             <use href="./images/sprite.svg#icon-mail"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label class="form-label" for="coment">Комментарий</label>
-                    <textarea class="form-textarea" name="coment" id="coment" rows="6" placeholder="Введите текст"></textarea>
+                <div class="form__field">
+                    <label class="form__label" for="coment">Комментарий</label>
+                    <textarea class="form__textarea" name="coment" id="coment" rows="6" placeholder="Введите текст"></textarea>
                 </div>
-                <div class="form-group">
-                    <label class="form-label-policy" for="policy">
-                        <input type="checkbox" class="form-checkbox" name="policy" id="policy" required>
-                        <span class="form-checkbox-border">
+                <div class="form__group">
+                    <label class="policy" for="policy">
+                        <input type="checkbox" class="checkbox" name="policy" id="policy" required>
+                        <span class="checkbox__border">
                             <svg class="icon-check">
                                 <use href="./images/sprite.svg#icon-check"></use>
                             </svg>
@@ -429,8 +429,8 @@
                         <a href="#" class="link-policy">Условия договора</a>
                     </label>
                 </div>
-                <div class="form-button-place">
-                    <button class="main__button" type="submit">Отправить</button>
+                <div class="form__button">
+                    <button class="standart__button" type="submit">Отправить</button>
                 </div>
             </form>
         </div>
